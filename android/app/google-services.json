@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "57888989470",
+    "firebase_url": "https://valid-song-427504-j7-default-rtdb.firebaseio.com",
+    "project_id": "valid-song-427504-j7",
+    "storage_bucket": "valid-song-427504-j7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:57888989470:android:75423db312694cde7ea90f",
+        "android_client_info": {
+          "package_name": "com.salsal.jangkrykmaster"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "57888989470-3vldasmjcqh1msr8tcnkc4kbi4s6bp5k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.salsal.jangkrykmaster",
+            "certificate_hash": "c452d3cb234f06c6fbe7f6ece62d040183522f35"
+          }
+        },
+        {
+          "client_id": "57888989470-iumct8rkagnqpal2q2vu0po65q3tem24.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvhJkiagz1azY-mQNo1jWm2yLkPGqvtJ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "57888989470-iumct8rkagnqpal2q2vu0po65q3tem24.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "57888989470-aee3di3rnphrargf9ro6kfieltogk66m.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.jangkrykMaster"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
