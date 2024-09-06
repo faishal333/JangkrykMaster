@@ -1,16 +1,27 @@
-# jangkrykmaster
+# JangkrikMaster
 
-A new Flutter project.
+JangkrykMaster adalah aplikasi manajemen peternakan jangkrik yang dirancang dengan fitur-fitur seperti manajemen kandang, gudang, staf, keuangan, memudahkan peternak dalam mengelola budidaya jangkrik.
 
-## Getting Started
+## Fitur Utama
 
-This project is a starting point for a Flutter application.
+- **Manajemen Kandang**: Mengelola kandang jangkrik, penjadwalan penetasan dan panen.
+- **Manajemen Gudang**: Menyimpan dan mengelola stok kebutuhan peternakan.
+- **Manajemen Anggota**: Mengatur anggota/staf yang terlibat dalam operasional peternakan.
+- **Menu Lainnya**: Pengaturan akun dan pengaturan lainnya.
 
-A few resources to get you started if this is your first Flutter project:
+## Tampilan Aplikasi
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 1. Beranda
+![Beranda](screenshot/Beranda.jpg)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 2. Menu Kandang
+![Menu Kandang](screenshot/Menu%20Kandang.jpg)
+
+### 3. Menu Gudang
+![Menu Gudang](screenshot/Menu%20Gudang.jpg)
+
+### 4. Daftar Anggota
+![Daftar Anggota](screenshot/Daftar%20Anggota.jpg)
+
+### 5. Menu Lainnya
+![Menu Lainnya](screenshot/Menu%20Lainnya.jpg)
