@@ -14,7 +14,6 @@ class OnboardingPage extends StatefulWidget {
 
 class _OnboardingPageState extends State<OnboardingPage> {
   final PageController _pageController = PageController();
-  int _currentPage = 0;
   final int _totalPages = 4;
 
   @override
@@ -26,9 +25,10 @@ class _OnboardingPageState extends State<OnboardingPage> {
   void _autoSlide() {
     Future.delayed(const Duration(seconds: 8), () {
       if (_pageController.hasClients) {
-        _currentPage = (_currentPage + 1) % _totalPages;
+        double currentPage = _pageController.page??0.0;
+        int nextPage = (currentPage.toInt()+1) % _totalPages;
         _pageController.animateToPage(
-          _currentPage,
+          nextPage,
           duration: const Duration(milliseconds: 300),
           curve: Curves.easeInOut,
         );
@@ -150,9 +150,6 @@ class _OnboardingPageState extends State<OnboardingPage> {
                   onPressed: () {
                     // Navigasi ke halaman daftar
                     Navigator.push(context, MaterialPageRoute(builder: (context) => const SignUpPage()),);
-                    //Navigator.of(context).push(
-                    //  MaterialPageRoute(builder: (context) => const SignUpPage()),
-                    //);
                   },
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Colors.green,
@@ -169,9 +166,6 @@ class _OnboardingPageState extends State<OnboardingPage> {
                   onPressed: () {
                     // Navigasi ke halaman masuk
                     Navigator.push(context, MaterialPageRoute(builder: (context) => const SignInPage()),);
-                    //Navigator.of(context).push(
-                    //  MaterialPageRoute(builder: (context) => const SignInPage()),
-                    //);
                   },
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Theme.of(context).canvasColor,
@@ -194,7 +188,6 @@ class _OnboardingPageState extends State<OnboardingPage> {
     return Column(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        //Image.asset(imagePath, height: 175.0),
         SvgPicture.string(svgData,
                   width: 150,
                   height: 150,
